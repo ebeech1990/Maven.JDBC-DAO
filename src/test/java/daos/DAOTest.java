@@ -15,8 +15,8 @@ public class DAOTest {
 
     @Test
     public void findByIdTest(){
-        User retrieved = dao.findById(3);
-        Integer expected = 3;
+        User retrieved = dao.findById(1);
+        Integer expected = 1;
         Integer actual = retrieved.getId();
         Assert.assertEquals(expected,actual);
     }
